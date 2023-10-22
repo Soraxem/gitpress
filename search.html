@@ -20,7 +20,7 @@ title: Suchen
       {
         "title" : "{{ page.title | escape }}",
         "interpret" : "{{ page.interpret }}",
-        "url" : "{{ site.baseurl }}{{ page.url }}"
+        "url" : "{{ page.url }}"
       }{% unless forloop.last %},{% endunless %}
     {% endfor %}
   ];
