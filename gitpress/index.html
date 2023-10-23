@@ -2,3 +2,13 @@
 title: Gitpress
 ---
 
+<script src="https://unpkg.com/@isomorphic-git/lightning-fs"></script>
+<script src="https://unpkg.com/isomorphic-git@1.24.5/index.umd.min.js"></script>
+<script src="https://unpkg.com/isomorphic-git/http/web/index.umd.js"></script>
+<script>
+// Initialize isomorphic-git with a file system
+window.fs = new LightningFS('fs', { wipe: true });
+// git.plugins.set('fs', window.fs);
+// I prefer using the Promisified version honestly
+window.pfs = window.fs.promises;
+</script>
