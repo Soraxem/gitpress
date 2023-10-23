@@ -25,3 +25,9 @@ body {
 nav {
   background-color: #fcecca;
 }
+
+p, strong, em, h1, h2, h3 {
+  border: black;
+  padding: 2px;
+  border-style: solid;
+}

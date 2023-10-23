@@ -13,7 +13,7 @@ Wie hoch die Mauern sind
 Wenn Sorgen mich bedrängen  
 Ich weiß, alle Ketten zerspringen  
 
-**Pre. Refrain**  
+*Pre. Refrain*  
 Lehre mich immer mehr zu verstehen wer Du bist  
 Die Gewissheit tief in mir, dass Du der Sieger bist
 
