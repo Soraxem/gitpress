@@ -30,6 +30,13 @@ git.clone({
   singleBranch: true,
   depth: 2
 });
+
+function callback(result) {
+    document.getElementById("gitpress-editor").value = result;
+}
+
+</script>
+
 <script>
 function setCookie(cname, cvalue, exdays) {
   const d = new Date();
@@ -53,3 +60,6 @@ function getCookie(cname) {
   return "";
 }
 </script>
+
+<textarea id="gitpress-editor">
+</textarea>
