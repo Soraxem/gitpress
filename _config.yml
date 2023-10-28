@@ -1,5 +1,5 @@
 url: "https://gitpress.soraxem.ch"
-raw-repo: "https://raw.githubusercontent.com/Soraxem/gitpress/main/"
+repo: "https://github.com/Soraxem/gitpress.git"
 baseurl: "/"
 defaults:
   - scope:
