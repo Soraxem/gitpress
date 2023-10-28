@@ -12,3 +12,21 @@ window.fs = new LightningFS('fs', { wipe: true });
 // I prefer using the Promisified version honestly
 window.pfs = window.fs.promises;
 </script>
+
+<script>
+// clone current repo
+window.dir = "/repo"
+console.log(dir);
+pfs.mkdir(dir);
+// Behold - it is empty!
+// console.log(await pfs.readdir(dir));
+git.clone({
+  http: GitHttp,  
+  fs: pfs,
+  dir: dir,
+  corsProxy: 'https://cors.isomorphic-git.org',
+  url: '{{ site.repo }}',
+  ref: 'main',
+  singleBranch: true,
+  depth: 2
+});
